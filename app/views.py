@@ -3,7 +3,7 @@ from app import app
 
 @app.route('/')
 def home():
-   return "<h1>Hello World</h1>"
+   return "<h1>Hello World</h1></br><h2>There's new changes<h2>"
 
 @app.route('/template')
 def template():
